@@ -3,6 +3,6 @@ FROM mirror.gcr.io/ubuntu:${UBUNTU_VERSION}
 
 COPY entrypoint.sh /entrypoint.sh
 
-RUN apt install docker.io
+RUN apt -y update && apt -y install docker.io
 
 ENTRYPOINT ["/entrypoint.sh"]
