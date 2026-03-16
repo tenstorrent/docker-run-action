@@ -30,7 +30,7 @@ Add this action to your GitHub workflow:
 
 ```yaml
 - name: Checkout code
-  uses: actions/checkout@v2
+  uses: actions/checkout@v4
   
 - name: Run in Docker
   uses: tenstorrent/docker-run-action@v3
@@ -57,7 +57,7 @@ Add this action to your GitHub workflow:
 
 ```yaml
 - name: Build Docker image
-  uses: docker/build-push-action@v2
+  uses: docker/build-push-action@v6
   with:
     tags: test-image:latest
     push: false
@@ -73,7 +73,7 @@ Add this action to your GitHub workflow:
 
 ```yaml
 - name: Checkout 
-  uses: actions/checkout@v2 # Required to mount the GitHub Workspace
+  uses: actions/checkout@v4 # Required to mount the GitHub Workspace
   
 - name: Run with mounted volume
   uses: tenstorrent/docker-run-action@v3
