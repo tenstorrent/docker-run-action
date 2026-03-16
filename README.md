@@ -155,9 +155,9 @@ Pull requests are reviewed weekly. For bugs and feature requests, please use [Gi
 This project has dual licensing:
 
 - **Original code:** Licensed under the MIT License by Abdud Dayan Adeeb. See [LICENSE](LICENSE) file for full text.
-- **Tenstorrent modifications:** Licensed under the Apache License 2.0. See [NOTICE](NOTICE) file for details.
+- **Tenstorrent modifications ONLY:** Licensed under the Apache License 2.0. See [LICENSE-APACHE-2.0](LICENSE-APACHE-2.0) file for full text and [NOTICE](NOTICE) file for details on what constitutes Tenstorrent modifications.
 
-For additional information about the Apache 2.0 license and its application to this project, see [LICENSE_understanding.txt](LICENSE_understanding.txt).
+For additional information about the Apache 2.0 license and its application to Tenstorrent modifications, see [LICENSE_understanding.txt](LICENSE_understanding.txt).
 
 ### Upstream Project
 

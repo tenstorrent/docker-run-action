@@ -3,8 +3,13 @@ docker-run-action
 This project is based on docker-run-action by Abdud Dayan Adeeb:
 https://github.com/addnab/docker-run-action
 
+================================================================================
+
+Original Work:
+
 Copyright (c) 2020 Abdud Dayan Adeeb
-Licensed under the MIT License (see LICENSE file)
+
+The original work is licensed under the MIT License (see LICENSE file).
 
 ================================================================================
 
@@ -12,8 +17,10 @@ Tenstorrent Modifications:
 
 Copyright © 2024 Tenstorrent USA, Inc.
 
-Tenstorrent modifications to this project are licensed under the Apache License, Version 2.0 (the "License");
-you may not use these modifications except in compliance with the License.
+ONLY Tenstorrent modifications to this project are licensed under the 
+Apache License, Version 2.0 (see LICENSE-APACHE-2.0 file).
+
+You may not use these modifications except in compliance with the Apache License.
 You may obtain a copy of the License at
 
     http://www.apache.org/licenses/LICENSE-2.0
@@ -28,3 +35,9 @@ Tenstorrent modifications include:
 - Changed base Docker image from Alpine-based (docker:20.10) to Ubuntu-based (mirror.gcr.io/ubuntu:22.04)
 - Modified package installation from apk to apt
 - Updated entrypoint script command handling logic
+
+================================================================================
+
+License Summary:
+- Original code: MIT License (LICENSE file)
+- Tenstorrent modifications: Apache License 2.0 (LICENSE-APACHE-2.0 file)
