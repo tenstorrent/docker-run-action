@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # SPDX-License-Identifier: MIT
 # SPDX-FileCopyrightText: © 2020 Abdud Dayan Adeeb
-# SPDX-FileCopyrightText: © 2024 Tenstorrent AI ULC
+# SPDX-FileCopyrightText: © 2024 Tenstorrent USA, Inc.
 
 if [ ! -z $INPUT_USERNAME ];
 then echo $INPUT_PASSWORD | docker login $INPUT_REGISTRY -u $INPUT_USERNAME --password-stdin
